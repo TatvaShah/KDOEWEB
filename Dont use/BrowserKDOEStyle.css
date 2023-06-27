@@ -1,0 +1,150 @@
+.container {
+    padding-left: 90px;
+    padding-right: 90px;
+    width: 100%;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.browser-wrapper .popular-section {
+    margin-left: 15px;
+}
+
+.browser-wrapper .popular-section .popular-posts-content-wrapper {
+    overflow-x: auto;
+}
+.flex {
+    display: flex;
+}
+.browser-wrapper .popular-section .popular-posts-content-wrapper .popular-posts-wrapper {
+    text-align: center;
+    margin-right: 16px;
+}
+
+.flex > * {
+    position: relative;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.browser-wrapper .categories-section h3 {
+    margin-bottom: 16px;
+    margin-top: 24px;
+}
+
+h3 {
+    color: var(--mine);
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.17;
+    letter-spacing: normal;
+}
+
+.flex-center {
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex.max-2.wrap > *:first-child {
+    margin-top: 0;
+}
+
+.flex.max-2.bleed > :nth-child(2n+1) {
+    margin-left: 0px;
+}
+
+.browser-wrapper .categories-section .category-rounded {
+    border-radius: 16px;
+    border: solid 1px var(--mike);
+    padding: 13px 0;
+}
+
+.flex.wrap {
+    flex-flow: row wrap;
+}
+
+.flex-center {
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex.bleed > :first-child {
+    margin-left: 0px;
+}
+
+.flex.max-2 > * {
+    width: calc( (100% - 2 * var(--bleed-width)) / 2 );
+    min-width: calc( (100% - 2 * var(--bleed-width)) / 2 );
+    max-width: calc( (100% - 2 * var(--bleed-width)) / 2 );
+}
+
+.flex.bleed > * {
+    margin-left: var(--bleed-width);
+    margin-right: var(--bleed-width);
+}
+
+.flex-text-center {
+    justify-content: center;
+}
+
+.flex-center {
+    align-items: center;
+}
+
+.flex > * {
+    position: relative;
+}
+
+.flex {
+    display: flex;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.browser-wrapper .categories-section .category-rounded .category-rounded-inner {
+    text-align: center;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 930px){
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+}
+
+@media screen and (max-width: 1120px){
+.container {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+}
+
+@media screen and (max-width: 1120px){
+h3 {
+    font-size: 24px;
+}
+}

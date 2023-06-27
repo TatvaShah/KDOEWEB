@@ -1,0 +1,146 @@
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+.browser-wrapper.root-wrapper {
+  width: 100%;
+  // max-width: 480px;
+  .container {
+    padding: 0 15px;
+    .browser-header-image-holder {
+      padding: 15px 0;
+    }
+  }
+  .card-container {
+    display: flex;
+    height: 100px;
+    gap: 10px;
+    white-space: initial;
+    padding: 0 15px;
+    overflow-x: auto;
+    .card {
+      // width: 100%;
+      min-width: 300px;
+      width: 300px;
+      padding: 0;
+      margin: 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      display: flex;
+      .card-img {
+        width: 100%;
+        max-width: 80px;
+        border-radius: 5px 0 0 5px;
+      }
+      .card-detail {
+        padding: 10px;
+        h2 {
+          margin: 0;
+        }
+        p {
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+  .popular-section {
+    margin: 0;
+    padding: 0 15px;
+    .popular-posts-content-wrapper {
+      gap: 15px;
+      .popular-posts-wrapper {
+        margin: 0;
+        .single-post-image {
+          width: 60px;
+          height: 60px;
+          border-radius: 15px;
+        }
+        .post-title {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .browser-wrapper.root-wrapper {
+    width: 100%;
+    // max-width: 480px;
+    .container {
+      padding: 0 15px;
+      .browser-header-image-holder {
+        padding: 15px 0;
+      }
+    }
+    .card-container {
+      display: flex;
+      height: 100px;
+      gap: 10px;
+      white-space: initial;
+      padding: 0 15px;
+      overflow-x: auto;
+      .card {
+        // width: 100%;
+        min-width: 300px;
+        width: 300px;
+        padding: 0;
+        margin: 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        display: flex;
+        .card-img {
+          width: 100%;
+          max-width: 80px;
+          border-radius: 5px 0 0 5px;
+        }
+        .card-detail {
+          padding: 10px;
+          h2 {
+            margin: 0;
+          }
+          p {
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+    .popular-section {
+      margin: 0;
+      padding: 0 15px;
+      .popular-posts-content-wrapper {
+        gap: 15px;
+        .popular-posts-wrapper {
+          margin: 0;
+          .single-post-image {
+            width: 60px;
+            height: 60px;
+            border-radius: 15px;
+          }
+          .post-title {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .browser-wrapper.root-wrapper {
+    .card-container {
+      .card {
+        min-width: 257px;
+        .card-detail {
+          p {
+
+          }
+        }
+      }
+    }
+  }
+}
